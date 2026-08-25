@@ -1,4 +1,4 @@
-/*this is the code for reading  the file using node.js in asynchronous way
+this is the code for reading  the file using node.js in asynchronous way
 const fs = require('fs');
 fs.readFile('task.txt','utf8',(err,data)=>{
     if (err) throw err;
@@ -45,7 +45,7 @@ const fs = require('fs');
 fs.appendFile('task.txt', '\nThis is appended content.', err => {
   if (err) throw err;
   console.log('Content appended!');
-});*/
+});
 
 
 
